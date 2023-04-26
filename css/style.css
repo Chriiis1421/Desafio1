@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+body {
+    background-image: url(../img/fundo.png);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 800px;
+}
+
+.formulario {
+    background-color: rgba(255, 255, 255, 0.247);
+ 
+    border-radius: 35px;
+
+    width:55%;
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap:nowrap;
+
+
+    gap: 30px
+}
+
+.formulario__nome {
+    border: none;
+    display: flex;
+    gap: 20px;
+}
+
+.formulario__nome input {    
+
+    width: 215px;
+    height: 45px;
+    padding: 20px;
+    
+
+    border-radius: 35px;
+}
+
+.formulario__campos input {
+
+    width: 450px;
+    height: 45px;
+    padding: 20px;
+    
+    border-radius: 35px;
+}
+
+.formulario__campos button {
+    width: 250px;
+    height: 45px;
+    padding: 5px;
+    border: 5px solid;
+    border-color: rgb(4, 215, 223);
+    background-color: aqua;
+    border-radius: 35px;
+    color: white;
+}
+
+.formulario__termo {
+    color: white;
+}
+
+.formulario__termo__destaque {
+    color: aqua;
+}
+
+.formulario__titulo {
+    margin: 30px;
+    color: white;
+}
+
+
